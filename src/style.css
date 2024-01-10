@@ -55,9 +55,60 @@ header {
       text-transform: uppercase;
       background: rgb(182, 0, 0);
   }
+  
+
+  section {
+  max-width: 1200px;
+  margin: 0 auto;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 2fr;
+    grid-gap:50px;
+  }
+  
+  footer h3 {
+    color: rgb(255, 255, 255);
+    font-family: Playfair Display;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  footer p, footer li {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  footer ul {
+    padding: 0;
+  }
+  footer li{
+    list-style: none;
+    margin :0;
+    padding: 0;
+  }
+
+  :hover footer a {
+    color: rgba(211, 0, 25, 0.6);
+    text-decoration-line: underline;
+  }
+  
+  footer a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration-line: none;;
+  }
+  .openSource-link {
+    color:rgba(255, 255, 255, 0.5);
+  }
   footer{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("../images/marc-3.jpeg");
+    background-position:15% 25%;;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 10px;
-    color:rgba(255, 255, 255, 0.824);
+    
   }
 
   @media (max-width: 800px) {
