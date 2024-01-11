@@ -1,6 +1,11 @@
 body{
     background: black;
 }
+.img-responsive {
+  padding-top: 5px;
+  width: 100%;;
+  filter: contrast(110%);
+}
 .container {
     max-width: 1400px;
     margin: 0 auto;
@@ -56,16 +61,25 @@ header {
       background: rgb(182, 0, 0);
   }
   
+  main {
+    background-color:;
+  }
 
   section {
   max-width: 1200px;
   margin: 0 auto;
   }
 
-  .grid {
+  .grid-2-columns {
     display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid-3-columns {
+    display: grid;
+    grid-gap: 50px;
     grid-template-columns: 1.5fr 2fr 2fr;
-    grid-gap:50px;
+    
   }
   
   footer h3 {
@@ -74,7 +88,7 @@ header {
     font-size: 20px;
     font-weight: 700;
   }
-  footer p, footer li {
+  footer p, footer li, main p {
     color: rgba(255, 255, 255, 0.8);
     font-family: Roboto;
     font-weight: 500;
