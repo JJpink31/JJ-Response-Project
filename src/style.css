@@ -2,14 +2,16 @@ body{
     background: black;
 }
 .img-responsive {
-  margin-top:10px;
+  margin-top:0;
   width: 100%;;
   filter: contrast(110%);
 }
 .container {
     max-width: 1400px;
     margin: 0 auto;
-
+.text-center {
+  text-align: center;
+}
 }
 header {
         background-image: linear-gradient(rgba(51, 0, 6, 0.447),rgba(78, 1, 1, 0.6)), url("../images/marc-2.jpeg");
@@ -73,15 +75,72 @@ header {
     font-size: 15px;
   }
 
+  h4 {
+    margin: 0;
+    color:white;
+    font-size: 20px;
+  }
+   
+  h5 {
+    margin: 0;
+    color:white;
+    font-size: 16px;
+  }
   section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   }
+ 
 
+  .card {
+  background-color:#ffffff21;
+  border-radius: 15px;
+  border: 3px solid rgb(106, 0, 0);
+  
+  }
+  .card-body {
+   padding: 24px 32px;
+  
+  }
+  .card-body p {
+    color: rgba(255, 255, 255, 0.825);
+     }
+
+ .card-footer {
+     text-align: center;
+  }
+
+#shortDescription{
+  margin-top: 100px;
+}
+  
+  .btn {
+        font-family: Roboto;
+        font-weight: 500;
+        text-align: center;
+        color: white;
+        padding: 8px 12px;
+        border-radius: 70px;
+        margin-top: 32px;
+        display: inline-block;
+        letter-spacing: 3px;
+        text-decoration: none;
+        background: rgb(182, 0, 0);
+  }
+  
   .grid-2-columns {
     display: grid;
     grid-gap: 50px;
     grid-template-columns: 1fr 1fr;
+  }
+  .equal-3-columns {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:100px;
+    padding-top: 50px;
+    
+    
   }
   .grid-3-columns {
     display: grid;
@@ -165,6 +224,14 @@ header {
         grid-template-columns: 1fr;
       }
 
+      .equal-3-columns {
+        grid-template-columns: 1fr;
+      }
+
+      #shortDescription {
+        margin-top: 32px;
+      }
+   
       main h3{
         margin-top: 0px;
       }
