@@ -127,10 +127,26 @@ header {
         text-decoration: none;
         background: rgb(182, 0, 0);
   }
+  .third {
+    background-color: white;
+  }
 
+  .third h3 {
+    font-family:Roboto;
+    font-size: 25px;
+    padding-top: 50px;
+   
+  }
+  .third h2 {
+    font-size: 50px;
+    color:black;
+  }
+
+  
     .embeds {
     width: 100%;
     aspect-ratio:16 / 9;
+    border-radius: 16px;
   }
 
   .grid-2-columns {
